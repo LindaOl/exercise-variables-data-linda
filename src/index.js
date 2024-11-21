@@ -60,7 +60,7 @@ console.log(maxGuests);
 Create a variable that stores a string.
 Print out that string in only UPPERCASE letters.
 */
-const departure = "Thank you, and come again!";
+const departure = `Thank you, and come again!`;
 console.log(departure.toUpperCase());
 
 /*
@@ -76,5 +76,5 @@ Then figure out a way to replace the word "summer" in the string with the word "
 Should give you => "Today we have a special winter deal!"
 (check for a specific string method...)
 */
-const special = "Today we have a special summer deal!"
+const special = `Today we have a special summer deal!`;
 console.log(special.replace("summer", "winter"));
