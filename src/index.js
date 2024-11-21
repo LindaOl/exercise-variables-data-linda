@@ -77,4 +77,4 @@ Should give you => "Today we have a special winter deal!"
 (check for a specific string method...)
 */
 const special = `Today we have a special summer deal!`;
-console.log(special.replace("summer", "winter"));
+console.log(special.replace(`summer`, `winter`));
